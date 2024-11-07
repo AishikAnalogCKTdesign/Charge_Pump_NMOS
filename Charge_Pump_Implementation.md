@@ -30,7 +30,7 @@ As we can see from the output waveform the voltage does fall for few ms and agai
 
 If we design using Si7336ADP from Siliconix a model used in LTSPICE then there are better results or close results to what is desired in a Charge Pump.
 
-For more detailed Waveform refer to # Charge_Pump_NMOS_Research
+For more detailed Waveform refer to # Charge_pump
 
 
 
