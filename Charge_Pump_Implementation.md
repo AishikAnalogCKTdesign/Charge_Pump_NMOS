@@ -25,9 +25,9 @@ BLOCK DIAGRAM OF A CHARGE_PUMP File name ---> Charge_pump_NMOS.cir
 
 
 
-Issues Faced in designing with Sky 130 nm technology.
+Issues Faced in designing with Sky 130 nm technology. 
 
-As we can see from the output waveform the voltage does fall for few ms and again rise up to the steady state . It might because of the 130nm techlogy gate length which is responsible for the slow switching of the NMOS and hence maybe the time of the switching of the NMOS is more that than the charging and discharging of the Caps .
+As we can see from the output waveform the voltage does fall for few ms and again rise up to the steady state . It might because of the 130nm techlogy gate length which is responsible for the slow switching of the NMOS and hence maybe the time of the switching of the NMOS is more that than the charging and discharging of the Caps . Also there is a rise of the voltage but the voltage is falling to milivolts instead of volts.
 
 If we design using Si7336ADP from Siliconix a model used in LTSPICE then there are better results or close results to what is desired in a Charge Pump.
 
