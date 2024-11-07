@@ -1,0 +1,29 @@
+* E:\ESIM\Charge_pump_NMOS\Charge_pump_NMOS.cir
+
+.include Switch_MOS.sub
+
+.lib "skywater-pdk-libs-sky130_fd_pr-main/models/sky130.lib.spice" tt
+
+
+xm1  Net-_MOS_IC1-Pad~_ sky130_fd_pr__nfet_1v08 w=0.42 l =0.50		
+10u1  Net-_10u1-Pad1_ Net-_10u1-Pad2_ capacitor		
+1m1  GND Net-_1m1-Pad2_ capacitor
+		
+v3  net-_xm2-pad2_ gnd pulse(0 3.3 0.5m 0.1n 0.1n 0.1m 1m)
+v4  net-_xm4-pad2_ gnd pulse(0 3.3 0.5m 0.1n 0.1n 0.1m 1m)
+v2  net-_xm1-pad2_ gnd pulse(3.3 0 0.5m 0.1n 0.1n 0.1m 1m)
+v5  net-_xm3-pad2_ gnd pulse(3.3 0 0.5m 0.1n 0.1n 0.1m 1m)
+v1  net-_xm1-pad1_ gnd 5
+
+.tran 0.5e-03 20e-03 0e-03
+
+* Control Statements 
+.control
+run
+
+plot net-_xm1-pad1_ output_port 
+
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc			
+.end

@@ -1,0 +1,18 @@
+* E:\ESIM\Charge_pump_NMOS\Charge_pump_NMOS.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 11/02/24 03:18:34
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+MOS_IC1  Net-_MOS_IC1-Pad~_ sky130_fd_pr__nfet_1v08 w=0.42 l =0.50		
+10u1  Net-_10u1-Pad1_ Net-_10u1-Pad2_ capacitor		
+1m1  GND Net-_1m1-Pad2_ capacitor		
+v5  Net-_MOS_IC1-Pad~_ GND pulse		
+v4  Net-_MOS_IC1-Pad~_ GND pulse		
+v3  Net-_MOS_IC1-Pad~_ GND pulse		
+v2  Net-_MOS_IC1-Pad~_ GND pulse		
+v1  Net-_MOS_IC1-Pad~_ GND 5		
+
+.end
