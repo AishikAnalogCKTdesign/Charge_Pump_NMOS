@@ -24,3 +24,4 @@ Charge pumps are the best solutions if we want to avoid large inductors and shor
 
 
 
+Software used for the research LTspice schematic and output.
