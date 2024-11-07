@@ -21,7 +21,8 @@ BLOCK DIAGRAM OF A CHARGE_PUMP File name ---> Charge_pump_NMOS.cir
 
 **VC2(output_port) vs Time**
 
-![Hackathon Circuit_Implementation_Result](https://github.com/user-attachments/assets/fecbbc9a-2895-4adf-8458-d309eca38226)
+![Hackathon Circuit_Implementation_Result](https://github.com/user-attachments/assets/4f3c2318-5a7c-4baf-8a5e-7706153cb92f)
+
 
 
 Issues Faced in designing with Sky 130 nm technology.
