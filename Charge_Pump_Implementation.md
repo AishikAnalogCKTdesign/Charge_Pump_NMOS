@@ -19,6 +19,11 @@ BLOCK DIAGRAM OF A CHARGE_PUMP File name ---> Charge_pump_NMOS.cir
 
 **PRE_LAYOUT_PERFORMANCE_CHARACTERISTICS**
 
+**Ngspice Result**
+
+![NgSpice_Result](https://github.com/user-attachments/assets/438e3741-3198-4b21-a7be-79d36a46f1bf)
+
+
 **VC2(output_port) vs Time**
 
 ![Hackathon Circuit_Implementation_Result](https://github.com/user-attachments/assets/4f3c2318-5a7c-4baf-8a5e-7706153cb92f)
